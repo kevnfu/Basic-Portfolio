@@ -55,6 +55,7 @@ header {
 .content {
     width: var(--page-width);
     margin: 0 auto;
+    margin-bottom: 20px;
     background-color: #ffffff;
     border-color: #dddddd;
     padding: 30px;
@@ -100,7 +101,8 @@ input[type=text] {
 }
 
 .portfolio-img > div {
-    position: absolute;
+    position: absolute
+;    z-index: 999;
     text-align: center;
     top: 90px;
     bottom: 0;
@@ -111,6 +113,10 @@ input[type=text] {
     background-color: #4aaaa5;
     color: white;
     line-height: 50px;
+}
+
+.portfolio-img:hover {
+    transform: scale(1.1,1.1);
 }
 
 footer {
@@ -125,4 +131,5 @@ footer {
     line-height: 50px;
     text-align: center;
     color: white;
+    z-index: 999;
 }
