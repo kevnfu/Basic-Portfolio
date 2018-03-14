@@ -93,6 +93,10 @@ input[type=text] {
     padding-top: 10px;
     padding-bottom: 10px;
 }
+
+.submit-button:hover {
+    background-color: #54c4be;
+}
 .portfolio-img {
     position: relative;
     float: left;
